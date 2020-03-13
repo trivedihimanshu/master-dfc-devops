@@ -4,7 +4,7 @@ parameters:
   AzureSubscription: 'Visual Studio Enterprise Subscription – MPN (0c222f38-f23e-47dd-abde-8e19d1b38130)'
   TestArmTemplateScriptUrl: https://raw.githubusercontent.com/trivedihimanshu/master-dfc-devops/dev/PSScripts/Test-ArmTemplate.ps1
   TestArmTemplateScriptFilePath: $(System.DefaultWorkingDirectory)\Test-ArmTemplate.ps1
-  TokenizeTestParameters: false
+  TokenizeTestParameters: true
 
 steps:
 - task: TotalALM.totalalm-tokenization.tokenization-build-task.Tokenization@2
