@@ -23,7 +23,7 @@ Test-ArmTemplate.ps1 -ParameterFile paramaters.json -TemplateFile template.json
 Param(
     [string] $ParameterFile,
     [string] $TemplateFile,
-    [string] $ResourceGroupName = "dfc-test-template-rg"
+    [string] $ResourceGroupName = "test-template-rg"
 )
 
 $DeploymentParameters = @{
